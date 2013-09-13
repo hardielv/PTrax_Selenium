@@ -28,22 +28,6 @@
   	<dependency>
   		<groupId>com.opera</groupId>
   		<artifactId>operadriver</artifactId>
-      <version>0.7.2</version>
     	</dependency>
   </dependencies>
-  <dependencyManagement>
-  	<dependencies>
-  		<dependency>
-  			<groupId>com.opera</groupId>
-  			<artifactId>operadriver</artifactId>
-  			<version>1.5</version>
-  			<exclusions>
-  				<exclusion>
-  					<groupid>org.seleniumhq.selenium</groupid>
-  					<artifactId>selenium-remote-driver</artifactId>
-  				</exclusion>
-  			</exclusions>
-  		</dependency>
-  	</dependencies>
-  </dependencyManagement>
 </project>
