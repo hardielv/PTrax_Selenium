@@ -3,12 +3,14 @@
   <groupId>PTrax_Selenium</groupId>
   <artifactId>PTrax_Selenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>PTrax_Selenium</name>
+  <description>PTrax_Selenium</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.0</version>
+        <version>3.1</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -20,7 +22,7 @@
 	<dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
    	</dependency>
   	<dependency>
@@ -30,3 +32,4 @@
   	</dependency>
   </dependencies>
 </project>
+
