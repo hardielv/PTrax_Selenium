@@ -16,7 +16,7 @@ public class PTraxDevTest extends TestCase{
 	private WebDriver driver;
 	
 	public void setup() throws Exception{	
-		File file = new File("C:/dev/selenium/IEDriverServer_x64_2.35.3/IEDriverServer.exe");
+		File file = new File("C:/dev/selenium/IEDriverServer.exe");
 		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 		this.driver = new InternetExplorerDriver();
 		this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
